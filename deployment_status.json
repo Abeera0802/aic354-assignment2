@@ -1,14 +1,74 @@
 {
   "Titanic": {
-    "status": "pending",
-    "url": null,
+    "status": "verified",
+    "url": "https://abeera-sp24-bse-004-titanic.streamlit.app/",
     "owner": "Abeera0802",
-    "verified_cases": []
+    "verified_cases": [
+      {
+        "inputs": {
+          "PClass": "First",
+          "Gender": "Female",
+          "Sibling": "Zero",
+          "Embarked": "Southampton"
+        },
+        "expected_class": 1,
+        "observed_class": 1,
+        "matched": true
+      },
+      {
+        "inputs": {
+          "PClass": "Third",
+          "Gender": "Male",
+          "Sibling": "One",
+          "Embarked": "Southampton"
+        },
+        "expected_class": 0,
+        "observed_class": 0,
+        "matched": true
+      }
+    ],
+    "verified_on": "2026-10-22",
+    "timezone": "Asia/Karachi",
+    "python_version": "3.14",
+    "public_access": "Streamlit Share dialog: Make this app public checked",
+    "entrypoint": "Titanic/app.py",
+    "repository": "https://github.com/Abeera0802/aic354-assignment2",
+    "screenshot": "deployment_evidence/titanic_cloud_prediction.png"
   },
   "Heart_Disease": {
-    "status": "pending",
-    "url": null,
+    "status": "verified",
+    "url": "https://abeera-sp24-bse-004-heart.streamlit.app/",
     "owner": "Abeera0802",
-    "verified_cases": []
+    "verified_cases": [
+      {
+        "inputs": {
+          "age": 50,
+          "cp": 1,
+          "thalach": 160,
+          "oldpeak": 1.0
+        },
+        "expected_class": 0,
+        "observed_class": 0,
+        "matched": true
+      },
+      {
+        "inputs": {
+          "age": 67,
+          "cp": 4,
+          "thalach": 100,
+          "oldpeak": 3.0
+        },
+        "expected_class": 1,
+        "observed_class": 1,
+        "matched": true
+      }
+    ],
+    "verified_on": "2026-10-22",
+    "timezone": "Asia/Karachi",
+    "python_version": "3.14",
+    "public_access": "Streamlit Share dialog: Make this app public checked",
+    "entrypoint": "Heart_Disease/app.py",
+    "repository": "https://github.com/Abeera0802/aic354-assignment2",
+    "screenshot": "deployment_evidence/heart_cloud_prediction.png"
   }
 }

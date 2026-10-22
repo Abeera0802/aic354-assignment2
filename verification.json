@@ -51,5 +51,11 @@
   },
   "student": "Abeera",
   "registration": "SP24-BSE-004",
-  "cloud_verification": "See deployment_status.json; these checks are local only."
+  "cloud_verification": "See deployment_status.json; these checks are local only.",
+  "instructor_reference_execution": {
+    "source": "https://github.com/haqnawaz99/ml-teaching-notebooks",
+    "commit": "c5f67db8361bd8953c4facf9e5ab98ce9242f314",
+    "code_cells_executed": 23,
+    "errors": 0
+  }
 }

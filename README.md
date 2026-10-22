@@ -4,7 +4,12 @@
 
 GitHub: https://github.com/Abeera0802/aic354-assignment2
 
-Live URLs and verification are recorded in `deployment_status.json` and at the very top of each notebook.
+**Both cloud apps verified on 22 October 2026 (Asia/Karachi).**
+
+- [Titanic live app](https://abeera-sp24-bse-004-titanic.streamlit.app/)
+- [Heart Disease live app](https://abeera-sp24-bse-004-heart.streamlit.app/)
+
+Default and changed-input predictions matched the saved local models. Each notebook starts with its own live link.
 
 | Task | Executed notebook | Source data | Trained model | Streamlit entry point |
 |---|---|---|---|---|
