@@ -2,14 +2,12 @@
 
 **Abeera | SP24-BSE-004 | AIC354 | Fall 2026**
 
-GitHub: https://github.com/Abeera0802/aic354-assignment2
+- **[Open Titanic live app](https://abeera-sp24-bse-004-titanic.streamlit.app/)**
+- **[Open Heart Disease live app](https://abeera-sp24-bse-004-heart.streamlit.app/)**
 
-**Both cloud apps verified on 22 October 2026 (Asia/Karachi).**
+Both cloud apps verified on 22 October 2026 (Asia/Karachi). Default and changed-input predictions matched the saved local models. Each notebook starts with its own live link.
 
-- [Titanic live app](https://abeera-sp24-bse-004-titanic.streamlit.app/)
-- [Heart Disease live app](https://abeera-sp24-bse-004-heart.streamlit.app/)
-
-Default and changed-input predictions matched the saved local models. Each notebook starts with its own live link.
+[Source code on GitHub](https://github.com/Abeera0802/aic354-assignment2)
 
 | Task | Executed notebook | Source data | Trained model | Streamlit entry point |
 |---|---|---|---|---|
