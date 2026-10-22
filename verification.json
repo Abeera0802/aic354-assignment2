@@ -1,0 +1,55 @@
+{
+  "Titanic": {
+    "local_checks": "passed",
+    "accuracy": 0.8,
+    "test_rows": 20,
+    "smoke_cases": [
+      {
+        "inputs": {
+          "PClass": "First",
+          "Gender": "Female",
+          "Sibling": "Zero",
+          "Embarked": "Southampton"
+        },
+        "expected_class": 1
+      },
+      {
+        "inputs": {
+          "PClass": "Third",
+          "Gender": "Male",
+          "Sibling": "One",
+          "Embarked": "Southampton"
+        },
+        "expected_class": 0
+      }
+    ]
+  },
+  "Heart_Disease": {
+    "local_checks": "passed",
+    "accuracy": 0.819672131147541,
+    "test_rows": 61,
+    "smoke_cases": [
+      {
+        "inputs": {
+          "age": 50,
+          "cp": 1,
+          "thalach": 160,
+          "oldpeak": 1.0
+        },
+        "expected_class": 0
+      },
+      {
+        "inputs": {
+          "age": 67,
+          "cp": 4,
+          "thalach": 100,
+          "oldpeak": 3.0
+        },
+        "expected_class": 1
+      }
+    ]
+  },
+  "student": "Abeera",
+  "registration": "SP24-BSE-004",
+  "cloud_verification": "See deployment_status.json; these checks are local only."
+}

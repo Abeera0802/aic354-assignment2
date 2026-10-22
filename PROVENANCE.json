@@ -1,0 +1,26 @@
+{
+  "student": "Abeera",
+  "registration": "SP24-BSE-004",
+  "retrieval_date": "2026-10-22",
+  "teaching_repository": "https://github.com/haqnawaz99/ml-teaching-notebooks",
+  "teaching_commit": "c5f67db8361bd8953c4facf9e5ab98ce9242f314",
+  "teaching_authors": [
+    "Mr. Mohsin Afzal",
+    "Dr. Rao Muhammad Adeel Nawab"
+  ],
+  "heart_source": "https://archive.ics.uci.edu/static/public/45/heart+disease.zip",
+  "heart_doi": "https://doi.org/10.24432/C52P4X",
+  "heart_license": "CC BY 4.0",
+  "heart_features": [
+    "age",
+    "cp",
+    "thalach",
+    "oldpeak"
+  ],
+  "heart_target": "Disease = int(num > 0); num is excluded from predictors",
+  "source_sha256": {
+    "Titanic/data/titanic.csv": "de83524b52a3ffc3fb8532616fd320c2e9a5c24507698d221c0834dab065f62f",
+    "Heart_Disease/data/processed.cleveland.data": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+  },
+  "implementation_note": "Fresh implementation with AI assistance; the instructor workflow is credited. Classmate code, model files, deployment evidence and account identifiers are not included."
+}
