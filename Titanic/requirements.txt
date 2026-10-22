@@ -1,0 +1,6 @@
+# Python 3.14; trained artifacts require matching scikit-learn.
+streamlit==1.66.1
+scikit-learn==1.9.1
+numpy==2.5.1
+pandas==3.0.6
+scipy==1.18.1
